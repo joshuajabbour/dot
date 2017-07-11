@@ -1,0 +1,10 @@
+[user]
+	name = Joshua Jabbour
+	email = code@joshuajabbour.com
+[github]
+	user = joshuajabbour
+[core]
+	editor = micro
+	excludesfile = ~/.gitignore
+[credential]
+	helper = osxkeychain
