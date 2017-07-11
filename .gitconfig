@@ -5,6 +5,6 @@
 	user = joshuajabbour
 [core]
 	editor = micro
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore_global
 [credential]
 	helper = osxkeychain
