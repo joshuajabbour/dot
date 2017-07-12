@@ -11,6 +11,7 @@ if [ -f "$(brew --prefix nvm)/nvm.sh" ]; then
   source "$(brew --prefix nvm)/nvm.sh"
 fi
 
+alias c="clear"
 alias cdns="echo -e 'Clearing DNS cache...' && sudo killall -HUP mDNSResponder"
 alias reload="echo -e 'Reloading shell profile...' && source $BASH_SOURCE"
 
