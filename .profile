@@ -6,7 +6,7 @@ if [ -e "$HOME/.bin:$PATH" ]; then
   export PATH="$HOME/.bin:$PATH"
 fi
 
-if [ -f "/usr/local/opt/nvm/nvm.sh" ]; then
+if [ -f "$(brew --prefix nvm)/nvm.sh" ]; then
   export NVM_DIR="$HOME/.nvm"
   source "$(brew --prefix nvm)/nvm.sh"
 fi
