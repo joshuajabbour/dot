@@ -12,5 +12,7 @@ if [ -f "$(brew --prefix nvm)/nvm.sh" ]; then
 fi
 
 alias cdns="echo -e 'Clearing DNS cache...' && sudo killall -HUP mDNSResponder"
-alias dots="vcsh dots"
 alias reload="echo -e 'Reloading current shell profile...' && source $HOME/.profile"
+
+alias dots="vcsh dots"
+alias .dots="vcsh .dots"
