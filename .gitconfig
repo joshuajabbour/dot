@@ -5,6 +5,14 @@
 	user = joshuajabbour
 [core]
 	editor = micro
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/joshua/.gitignore_global
 [credential]
 	helper = osxkeychain
+[commit]
+	template = /Users/joshua/.git-commit.tmpl
+[difftool "sourcetree"]
+	cmd = ksdiff -w \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
