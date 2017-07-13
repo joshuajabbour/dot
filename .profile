@@ -17,3 +17,5 @@ alias reload="echo -e 'Reloading shell profile...' && source $BASH_SOURCE"
 
 alias dots="vcsh dots"
 alias .dots="vcsh .dots"
+
+alias cf="cd $HOME/Projects/cf"
